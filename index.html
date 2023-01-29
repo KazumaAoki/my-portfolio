@@ -9,8 +9,75 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
-    <h1>aokikazuma</h1>
+    
+    <div id="header">
+      <div class="title"><h1>自己紹介</h1></div>
+      <div class="header-list">
+        <ul>
+          <li><a href="#hobby">趣味</a></li>
+          <li>|</li>          
+          <li><a href="#native">出身地</a></li>
+        </ul>
+      </div>
+    </div>
+
+    
+
+    <div id="main">
+      <div class="intro">
+        <img class="img_pro" src="face.jpg"/>  
+        <div class="myprofile">
+          <h1>my profile</h1>
+          <h3>名前：青木一真</h3>
+          <h3>年齢：21</h3>
+          <h3>大学：北海道大学</h3>   
+        </div>
+      </div>
+
+      <div>  
+        <h2 id="native">
+          <b>出身地</b>
+          <hr width="100%"></hr>
+        </h2><br>
+        <div style="display:inline-block;">
+          <button id="before-button-native">前へ</button>        
+        </div>
+        <img
+          id="img-native"
+          width="400px"
+          height="400px"
+        /> 
+        <div style="display: inline-block;">
+          <button id="next-button-native">次へ</button>        
+        </div>
+        <div id="discription-native"></div>
+      </div>
+      <br />
+
+      <div>
+        <h2 id="hobby">
+          <b>趣味</b>
+          <hr width="100%"></hr>
+        </h2><br>
+        <div style="display:inline-block;">
+          <button id="before-button-hobby">前へ</button>        
+        </div>
+        <div style="display: inline-block;">
+          <button id="next-button-hobby">次へ</button>        
+        </div><br>
+        <img
+          id="img-hobby"
+          width="500px"
+        /> <br>
+        <div id="discription-hobby"></div>
+      </div>
+      <br />
+
+      <div style="text-align: right;">
+        <a href="#header">ページトップに戻る</a>
+      </div>
+    </div>
+
     <script src="main.js"></script>
   </body>
 </html>
